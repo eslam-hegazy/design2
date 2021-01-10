@@ -1,0 +1,206 @@
+name: serial_app
+description: A new Flutter application.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.0
+  splashscreen: ^1.2.0
+  curved_navigation_bar: ^0.3.4
+  carousel_pro: ^1.0.0
+  font_awesome_flutter: ^8.2.0
+  tflite: ^1.1.1
+  image_picker: ^0.6.7+11
+  webview_flutter: ^1.0.7
+  better_player: ^0.0.37
+  youtube_player_flutter: ^7.0.0+7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - images/gif1.gif
+    - images/b3.jpg
+    - images/a1.jpg
+    - images/a2.jpg
+    - images/a3.jpg
+    - images/a4.jpg
+    - images/a5.jpg
+    - images/info_images/f1.png
+    - images/info_images/f2.png
+    - images/info_images/f3.png
+    - images/info_images/f4.png
+    - images/info_images/f5.png
+    - images/info_images/f6.png
+    - images/info_images/f7.png
+    - images/info_images/f8.png
+    - images/info_images/f9.png
+    - images/info_images/f10.png
+    - images/c1.png
+    - images/c2.png
+    - images/c3.png
+    - images/c4.png
+    - images/c5.png
+    - images/c6.png
+    - images/c7.png
+    - images/c8.png
+    - images/c9.png
+    - images/vegetables/v1.jpg
+    - images/vegetables/v2.jpg
+    - images/vegetables/v3.jpg
+    - images/vegetables/v4.jpg
+    - images/vegetables/v5.jpg
+    - images/vegetables/v6.jpg
+    - images/vegetables/v7.jpg
+    - images/vegetables/v8.jpg
+    - images/vegetables/v9.jpg
+    - images/vegetables/v10.jpg
+    - images/fruits/f1.jpg
+    - images/fruits/f2.jpg
+    - images/fruits/f3.jpg
+    - images/fruits/f4.jpg
+    - images/fruits/f5.jpg
+    - images/fruits/f6.jpg
+    - images/fruits/f7.jpg
+    - images/fruits/f8.jpg
+    - images/fruits/f9.jpg
+    - images/fruits/f10.jpg
+    - images/grains/g1.jpg
+    - images/grains/g2.jpg
+    - images/grains/g3.jpg
+    - images/grains/g4.jpg
+    - images/grains/g5.jpg
+    - images/grains/g6.jpg
+    - images/grains/g7.jpg
+    - images/grains/g8.jpg
+    - images/grains/g9.jpg
+    - images/grains/g10.jpg
+    - images/legumes/l1.jpg
+    - images/legumes/l2.jpg
+    - images/legumes/l3.jpg
+    - images/legumes/l4.jpg
+    - images/legumes/l5.jpg
+    - images/legumes/l6.jpg
+    - images/legumes/l7.jpg
+    - images/legumes/l8.jpg
+    - images/legumes/l9.jpg
+    - images/legumes/l10.jpg
+    - images/meets/m1.jpg
+    - images/meets/m2.jpg
+    - images/meets/m3.jpg
+    - images/meets/m4.jpg
+    - images/meets/m5.jpg
+    - images/meets/m6.jpg
+    - images/meets/m7.jpg
+    - images/meets/m8.jpg
+    - images/meets/m9.jpg
+    - images/meets/m10.jpg
+    - images/fishes/f1.jpg
+    - images/fishes/f2.jpg
+    - images/fishes/f3.jpg
+    - images/fishes/f4.jpg
+    - images/fishes/f5.jpg
+    - images/fishes/f6.jpg
+    - images/fishes/f7.jpg
+    - images/fishes/f8.jpg
+    - images/fishes/f9.jpg
+    - images/fishes/f10.jpg
+    - images/sefood/s1.jpg
+    - images/sefood/s2.jpg
+    - images/sefood/s3.jpg
+    - images/sefood/s4.jpg
+    - images/sefood/s5.jpg
+    - images/sefood/s6.jpg
+    - images/sefood/s7.jpg
+    - images/sefood/s8.jpg
+    - images/sefood/s9.jpg
+    - images/sefood/s10.jpg
+    - images/Dairy/d1.jpg
+    - images/Dairy/d2.jpg
+    - images/Dairy/d3.jpg
+    - images/Dairy/d4.jpg
+    - images/Dairy/d5.jpg
+    - images/Dairy/d6.jpg
+    - images/Dairy/d7.jpg
+    - images/Dairy/d8.jpg
+    - images/Dairy/d9.jpg
+    - images/Dairy/d10.jpg
+    - images/egges/e1.jpg
+    - images/egges/e2.jpg
+    - images/egges/e3.jpg
+    - images/egges/e4.jpg
+    - images/egges/e5.jpg
+    - images/egges/e6.jpg
+    - images/egges/e7.jpg
+    - images/egges/e8.jpg
+    - images/egges/e9.jpg
+    - images/egges/e10.jpg
+    - assets/labels.txt
+    - assets/model_unquant.tflite
+
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Raleway
+      fonts:
+        - asset: fonts/Raleway-Bold.ttf
+
+    - family: Reglisse
+      fonts:
+            - asset: fonts/Reglisse.otf
+              weight: 700
+    - family: OMEGLE
+      fonts:
+            - asset: fonts/OMEGLE.ttf
+
+
+
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
